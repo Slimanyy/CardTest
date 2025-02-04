@@ -15,7 +15,7 @@ def is_valid_card_number(card_number):
         if double:
             n *= 2
             if n > 9:
-                n -= 9  # Subtract 9 if the results is more than 9
+                n -= 9  # Subtract 9 if the results is more than 9. (it is the the same thing as adding the two didgits of that range)
         
         sum_digits += n
         double = not double  # Toggle double flag
